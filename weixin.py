@@ -10,7 +10,7 @@ from lxml import *
 import lxml.html as HTML 
 from bs4 import BeautifulSoup
 
-Keyword="网贷之家"
+Keyword=raw_input()
 Keyword=urllib.quote(Keyword)
 Url="http://weixin.sogou.com/weixin?type=1&query="+Keyword+"&ie=utf8"
 
