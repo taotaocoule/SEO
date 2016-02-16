@@ -26,12 +26,16 @@ def GetUrlData(query):
 	return url
 
 def GetData(url):
-	urlopen=urllib.urlopen(url)
-	urlread=urlopen.read()
+	req=urllib2.Request(url,headers=header)
+	text=urllib2.urlopen(req)
+	text=text.read()
+	return text
+	# urlopen=urllib.urlopen(url)
+	# urlread=urlopen.read()
 	# urlread=urlread.replace("\n","")
 	# c=urlread[19:-1]
 	# c=eval(c)
-	return urlread
+	# return urlread
 
 def GetDetail(keyword,data):
 	k='<'+keyword+'>'+'(.*?)'+'<\\\/'+keyword+'>'
