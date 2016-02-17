@@ -9,7 +9,9 @@ from bs4 import BeautifulSoup
 import re
 
 query=['大数据文摘']
-header={'Cookie':'CXID=364E00193E26A7AD6BE01660038E167E; SUID=6A52E765526C860A56565FE2000A2448; IPLOC=CN3100; SUV=1448516589067105; weixinIndexVisited=1; GOTO=Af99046; pgv_pvi=7942813696; ssuid=8187851612; usid=TJ3TDmEq-PTEhNsb; ld=wNtUyZllll2QWabclllllVzXnKylllllBWNvzkllllGlllllpr$8C5@@@@@@@@@@; ABTEST=4|1453876849|v1; SNUID=4E76C34125200F964AF169AC25EA0CAB; ad=Kdjpvlllll2QqO@AlllllVbjP9klllllBWNvzkllll9lllll9j7ll5@@@@@@@@@@; pgv_si=s6132648960; sct=64','Host':'weixin.sogou.com',
+cookie=r'CXID=364E00193E26A7AD6BE01660038E167E; SUID=6A52E765526C860A56565FE2000A2448; IPLOC=CN3100; SUV=1448516589067105; weixinIndexVisited=1; GOTO=Af99046; pgv_pvi=7942813696; ssuid=8187851612; usid=TJ3TDmEq-PTEhNsb; ld=wNtUyZllll2QWabclllllVzXnKylllllBWNvzkllllGlllllpr$8C5@@@@@@@@@@; ABTEST=4|1453876849|v1; sct=64; ad=aNjpvlllll2QqO@AlllllVbRTi9lllllBWNvzkllll9lllll9v7ll5@@@@@@@@@@; SNUID=546CDA583E3815D3E50EEAE63EDBCAC1'
+header={'Cookie':cookie,
+		'Host':'weixin.sogou.com',
 		'User-Agent':r'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36',
 		'X-Requested-With':'XMLHttpRequest'}
 
