@@ -1,5 +1,5 @@
 系统要求
-基于python 2.7环境
+基于python 2.7环境,并需要urllib2，re，selenium的支持
 采用Utf-8编码
 需要安装Firefox浏览器
 
