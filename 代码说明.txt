@@ -1,0 +1,8 @@
+系统要求
+基于python 2.7环境
+采用Utf-8编码
+需要安装Firefox浏览器
+
+使用方法
+windows：cmd命令行定位到代码所在目录，输入“python weisinrss.py”即可。
+mac+linux：在终端定位到代码所在目录，输入“python weisinrss.py”即可。

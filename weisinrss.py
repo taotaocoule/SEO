@@ -10,7 +10,7 @@ import re
 import cookielib
 from selenium import webdriver
 
-query=['大数据文摘']
+query=['大数据文摘','网贷之家']
 # cookie=r'CXID=364E00193E26A7AD6BE01660038E167E; SUID=6A52E765526C860A56565FE2000A2448; IPLOC=CN3100; SUV=1448516589067105; weixinIndexVisited=1; GOTO=Af99046; pgv_pvi=7942813696; ssuid=8187851612; usid=TJ3TDmEq-PTEhNsb; ld=wNtUyZllll2QWabclllllVzXnKylllllBWNvzkllllGlllllpr$8C5@@@@@@@@@@; ABTEST=4|1453876849|v1; sct=64; ad=aNjpvlllll2QqO@AlllllVbRTi9lllllBWNvzkllll9lllll9v7ll5@@@@@@@@@@; SNUID=546CDA583E3815D3E50EEAE63EDBCAC1'
 
 def GetCookie(url):
